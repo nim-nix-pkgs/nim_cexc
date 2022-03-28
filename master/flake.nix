@@ -11,7 +11,6 @@
   inputs.src-nim_cexc-master.ref   = "refs/heads/master";
   inputs.src-nim_cexc-master.owner = "metasyn";
   inputs.src-nim_cexc-master.repo  = "nim-cexc-splunk";
-  inputs.src-nim_cexc-master.dir   = "";
   inputs.src-nim_cexc-master.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
