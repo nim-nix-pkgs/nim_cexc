@@ -7,8 +7,37 @@
   "license": "Apache2",
   "web": "https://github.com/metasyn/nim-cexc-splunk",
   "refs": [
-    "fatal: unable to access 'https://github.com/metasyn/nim-cexc-splunk/': OpenSSL SSL_connect: Connection reset by peer in connection to github.com:443 ",
+    "refs/heads/master",
     ""
   ],
-  "heads": []
+  "heads": [
+    {
+      "name": "nim_cexc",
+      "version": "0.1.0",
+      "author": "Alexander Johnson",
+      "desc": "A simple chunked external protocol interface for Splunk custom search commands.",
+      "license": "Apache2",
+      "skipDirs": [],
+      "skipFiles": [],
+      "skipExt": [],
+      "installDirs": [],
+      "installFiles": [],
+      "installExt": [],
+      "requires": [
+        {
+          "name": "nim",
+          "str": ">= 0.18.0",
+          "ver": {
+            "kind": "verEqLater",
+            "ver": "0.18.0"
+          }
+        }
+      ],
+      "bin": [],
+      "binDir": "",
+      "srcDir": "src",
+      "backend": "c",
+      "ref": "refs/heads/master"
+    }
+  ]
 }
